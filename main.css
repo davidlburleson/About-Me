@@ -1,0 +1,138 @@
+/* General Styles */
+
+body {
+    margin: 0;
+    color: #222222;
+    font-size: 1em;
+    font-family: "Vollkorn", "Gentium Book Basic". sans-serif;
+}
+
+.introduction-section > h2,
+.location-section > h2 {
+    color: midnightblue;
+    font-size: 2em;
+    font-family: "Open Sans", "sans-serif";
+}
+
+.questions-section > h2 {
+    color: firebrick;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer,
+h2,
+.social {
+    text-align: center;
+}
+
+/* Masthead Styles */
+
+.masthead {
+    padding: 6em 0;
+    background-image: url("pictures/masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-top: solid 1em #FFCF33;
+    border-bottom: solid 1em #C11B17;
+    }
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.masthead-intro,
+.masthead-heading {
+	color: white;
+    text-shadow: 2px 2px 10px black;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+}
+
+/* Questions Section */
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.introduction-section {
+	margin-top: -0.2em;
+}
+
+.introduction-section p,
+.location-section p,
+.content-footer p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+section > h1 {
+    margin-top: 2em;
+}
+
+/* Footer */
+
+footer {
+	background-color: steelblue;
+}
+
+.social {
+    margin: 0;
+}
+
+.content-footer {
+	margin-top: 4em;
+    color: white;
+    padding-top: 3em;
+    border-top: solid 1em #C11B17;
+}
+
+.social li {
+    display: inline-block;
+    list-style: none;
+    padding-bottom: 3em;
+    margin-bottom: -0.2em;
+    margin-right: 1.5em;
+}
+
+/* Link Styles */
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightgrey;
+}
+
+a:visited {
+	color: firebrick;
+}
